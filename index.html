@@ -26,13 +26,23 @@
           '02-first-component': {
             format: 'register',
             defaultExtension: 'js'
+          },
+          '03-events-and-refs': {
+            format: 'register',
+            defaultExtension: 'js'
+          },
+          '04-events-in-depth': {
+            format: 'register',
+            defaultExtension: 'js'
           }
         }
       });
 
       System.import(
         //'01-hello-world/main'
-        '02-first-component/main'
+        //'02-first-component/main'
+        //'03-events-and-refs/main'
+        '04-events-in-depth/main'
       ).then(null, console.error.bind(console));
         
     </script>
